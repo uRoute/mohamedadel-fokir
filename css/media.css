@@ -1,0 +1,730 @@
+@media  (max-width: 1000px) and (min-width: 900px) {
+    body{
+        background-color: rgb(27, 230, 152);
+    }
+  
+    .Header .logo {
+        float: left;
+      
+        margin: 5px 0;
+        padding: 15px 50px;
+        position: static;
+    
+    }
+    
+    .Header ul {
+        float: right;
+        background-color: transparent;
+        padding: 10px 2px;
+        margin-top: 0;
+        position: static;
+
+    
+    }
+    .Header ul li {
+        float: left;
+        list-style: none;
+        padding: 10px ;
+    
+    }
+    @keyframes control {
+        from {
+            width: 0;
+    
+        }
+    
+        to {
+            width: 100%;
+        }
+    }
+    
+    @keyframes blink {
+        from {
+            border-right-color: rgb(255, 255, 255);
+        }
+    
+        to {
+            border-right-color: transparent;
+        }
+    
+    }
+    
+    
+  .About-Continer .profile {
+    width: 30%;
+    float: left;
+    text-align: center;
+    background-color: transparent;
+
+    box-sizing: border-box;
+
+
+
+
+}
+.sub-Information ul li {
+
+   
+    color: rgb(85, 85, 85);
+    width: 50%;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
+
+
+}
+
+
+.profile .moce {
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+
+
+    border-radius: 5px;
+
+
+
+
+
+}
+.About-Continer .Information {
+    width: 50%;
+   
+    float: left;
+    padding-left: 20px;
+    
+    box-sizing: border-box;
+
+}
+.sub-Information .buttoms .btn1 {
+    margin-right: 15px;
+    background-color: #FF305B;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+
+}
+
+.sub-Information .buttoms .btn2 {
+    margin-right: 15px;
+    background-color: #FF305B;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+
+}
+.cards .card-info {
+
+    margin-bottom: 50px;
+    background-color: transparent;
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 50px 15px;
+    box-sizing: border-box;
+
+    transition: all 0.3s ease-out;
+
+}
+.Portfolio .CardProduct .Product-Views {
+    width: 100%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+
+
+
+}
+.Counter .Counter-Information {
+    width: 50%;
+    float: left;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.feedback-Card {
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #F1F1F1;
+
+
+}
+
+.feedback-Card-information .feedback-subinformation {
+    float: left;
+    width: 50%;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+
+
+}
+.feedback-Card-information::after {
+    content: "";
+    width: 2%;
+    height: 2%;
+    background-color: #ff305900;
+    position: absolute;
+    top: 325px;
+    left: 370px;
+    border-radius: 10px;
+    border: 1px solid #ff3059;
+
+}
+
+.feedback-Card-information::before {
+    content: "";
+    width: 4%;
+    height: 2%;
+    background-color: #ff3059;
+    position: absolute;
+    top: 325px;
+    left: 400px;
+    border: 1px solid #ff3059;
+    border-radius: 8px;
+}
+
+
+.Blog-Card-Review {
+
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+    width: 100%;
+
+}
+
+.Countact-Form {
+    margin: 0 auto 50px;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.Countact-Row-One,
+.Countact-Row-two,
+.Countact-Row-three,
+.Countact-Row-four {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+.footer-section .footer-information {
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+    
+}
+  
+@media  (max-width: 899px) and (min-width: 600px) {
+    body{
+        background-color: rgb(254, 254, 254);
+    }
+  
+    .Header .logo {
+        float: left;
+      
+        margin: 5px 0;
+        padding: 15px 50px;
+        position: static;
+    
+    }
+    
+    .Header ul {
+        float: right;
+        background-color: transparent;
+        padding: 10px 2px;
+        margin-top: 0;
+        position: static;
+
+    
+    }
+    .Header ul li {
+        float: left;
+        list-style: none;
+        padding: 10px ;
+    
+    }
+    @keyframes control {
+        from {
+            width: 0;
+    
+        }
+    
+        to {
+            width: 100%;
+        }
+    }
+    
+    @keyframes blink {
+        from {
+            border-right-color: rgb(255, 255, 255);
+        }
+    
+        to {
+            border-right-color: transparent;
+        }
+    
+    }
+    
+    
+  .About-Continer .profile {
+    width: 65%;
+    float: left;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 14%;
+    box-sizing: border-box;
+
+
+
+
+}
+.sub-Information ul li {
+
+   
+    color: rgb(85, 85, 85);
+    width: 100%;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
+
+
+}
+
+
+.profile .moce {
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+
+
+    border-radius: 5px;
+
+
+
+
+
+}
+.About-Continer .Information {
+    width: 100%;
+   
+    float: left;
+    padding-left: 50px;
+    margin-top: 30px;
+    box-sizing: border-box;
+
+}
+.sub-Information .buttoms .btn1 {
+    margin-right: 15px;
+    background-color: #FF305B;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+
+}
+
+.sub-Information .buttoms .btn2 {
+    margin-right: 15px;
+    background-color: #FF305B;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+
+}
+.cards .card-info {
+
+    margin-bottom: 50px;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 50px 15px;
+    box-sizing: border-box;
+
+    transition: all 0.3s ease-out;
+
+}
+.Portfolio .CardProduct .Product-Views {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+
+}
+.Counter .Counter-Information {
+    width: 50%;
+    float: left;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.feedback-Card {
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #F1F1F1;
+
+
+}
+
+.feedback-Card-information .feedback-subinformation {
+    float: left;
+    width: 50%;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+
+
+}
+.feedback-Card-information::after {
+    content: "";
+    width: 2%;
+    height: 2%;
+    background-color: #ff305900;
+    position: absolute;
+    top: 325px;
+    left: 370px;
+    border-radius: 10px;
+    border: 1px solid #ff3059;
+
+}
+
+.feedback-Card-information::before {
+    content: "";
+    width: 4%;
+    height: 2%;
+    background-color: #ff3059;
+    position: absolute;
+    top: 325px;
+    left: 400px;
+    border: 1px solid #ff3059;
+    border-radius: 8px;
+}
+
+
+.Blog-Card-Review {
+
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+    width: 100%;
+
+}
+
+.Countact-Form {
+    margin: 0 auto 50px;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.Countact-Row-One,
+.Countact-Row-two,
+.Countact-Row-three,
+.Countact-Row-four {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+.footer-section .footer-information {
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+    
+}
+  
+@media  (max-width: 599px){
+    body{
+        background-color: #F1F1F1;
+    }
+  
+    .Header .logo {
+        float: left;
+      
+        margin: 5px 20px;
+        padding: 15px 50px;
+        position: static;
+    
+    }
+    
+    .Header ul {
+        float: right;
+        background-color: transparent;
+        padding: 10px 5px;
+        margin-top: 0;
+        position: static;
+
+    
+    }
+    .Header ul li {
+        float: left;
+        list-style: none;
+        padding: 0 3px;
+    
+    }
+    @keyframes control {
+        from {
+            width: 0;
+    
+        }
+    
+        to {
+            width: 100%;
+        }
+    }
+    
+    @keyframes blink {
+        from {
+            border-right-color: rgb(255, 255, 255);
+        }
+    
+        to {
+            border-right-color: transparent;
+        }
+    
+    }
+    
+    
+  .About-Continer .profile {
+    width: 75%;
+    float: left;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 14%;
+    box-sizing: border-box;
+
+
+
+
+}
+.sub-Information ul li {
+
+   
+    color: rgb(85, 85, 85);
+    width: 100%;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
+
+
+}
+
+
+.profile .moce {
+    position: relative;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+
+
+    border-radius: 5px;
+
+
+
+
+
+}
+.About-Continer .Information {
+    width: 60%;
+    background-color: transparent;
+    float: left;
+    padding-left: 50px;
+    margin-top: 30px;
+
+}
+.sub-Information .buttoms .btn1 {
+    margin-right: 15px;
+    background-color: #FF305B;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+
+}
+
+.sub-Information .buttoms .btn2 {
+    margin-right: 15px;
+    background-color: #FF305B;
+    padding: 10px 10px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+
+}
+.cards .card-info {
+
+    margin-bottom: 50px;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+    float: left;
+    padding: 50px 15px;
+    box-sizing: border-box;
+
+    transition: all 0.3s ease-out;
+
+}
+.Portfolio .CardProduct .Product-Views {
+    width: 100%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+
+}
+.Counter .Counter-Information {
+    width: 50%;
+    float: left;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+.feedback-Card {
+    border-radius: 10px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background-color: #F1F1F1;
+
+
+}
+
+.feedback-Card-information .feedback-subinformation {
+    float: left;
+    width: 50%;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+
+
+}
+.feedback-Card-information::after {
+    content: "";
+    width: 2%;
+    height: 2%;
+    background-color: #ff305900;
+    position: absolute;
+    top: 400px;
+    left: 200px;
+    border-radius: 10px;
+    border: 1px solid #ff3059;
+
+}
+
+.feedback-Card-information::before {
+    content: "";
+    width: 4%;
+    height: 2%;
+    background-color: #ff3059;
+    position: absolute;
+    top: 400px;
+    left: 235px;
+    border: 1px solid #ff3059;
+    border-radius: 8px;
+}
+
+
+.Blog-Card-Review {
+
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+    width: 100%;
+
+}
+
+.Countact-Form {
+    margin: 0 auto 50px;
+    padding-left: 10%;
+    width: 100%;
+}
+
+.Countact-Row-One,
+.Countact-Row-two,
+.Countact-Row-three,
+.Countact-Row-four {
+    width: 100%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+
+.footer-section .footer-information {
+    font-size: 15px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+    
+}

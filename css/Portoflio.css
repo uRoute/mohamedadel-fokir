@@ -1,0 +1,1352 @@
+body {
+    margin: 0;
+
+
+}
+
+/*----------------------------------Section One Information Start------------------------------*/
+.BackGroundSection {
+    background-image: url(../images/slider-02.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+
+.layout {
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 100vh;
+}
+
+.Continer {
+   /* background-color: #FF305B; */
+    width: 100%;
+    margin: auto;
+  
+
+}
+
+
+.clear {
+    clear: both;
+}
+
+.Header {
+   background-color: rgba(0, 0, 0, 0.801);
+    position: fixed;
+    width: 100%;
+
+    z-index: 999999999999;
+}
+
+.Header .logo {
+    float: left;
+   
+    margin: 5px 20px;
+    padding: 15px 50px;
+    /* position: fixed; */
+
+}
+
+.Header .logo a {
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 25px;
+   
+    padding: 18px 30px;
+    color: #FF305B;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.Header ul {
+    float: right;
+    background-color: transparent;
+    padding: 20px 10px;
+    margin-top: 0;
+    /* position: fixed; */
+    left: 51%;
+
+   
+
+
+
+
+}
+
+.Header ul li {
+    float: left;
+    list-style: none;
+    padding: 0 10px;
+
+}
+
+.Header ul li a {
+    font-size: 16px;
+    line-height: 20px;
+    padding: 20px 2px;
+    margin: 0;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+}
+
+.Header ul li a:hover {
+    color: #FF305B;
+    transition: color 0.8s ease-in-out;
+}
+
+
+.loceat {
+  
+    padding-top: 150px;
+}
+
+.prfileInfo {
+    margin: 150px auto;
+
+    width: 90%;
+
+
+
+
+    text-align: center;
+}
+
+.prfileInfo p {
+    color: white;
+    font-size: 24px;
+    line-height: 26.5px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.prfileInfo h1 {
+    color: #FF305B;
+    font-size: 70px;
+    line-height: 77px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.text span {
+    color: #FF305B;
+}
+
+.Chang-Text .text {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    width: 38%;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 100;
+    margin: 30px auto;
+    border-right: 2px solid rgb(255, 255, 255);
+    line-height: 30px;
+
+    overflow: hidden;
+    white-space: nowrap;
+    animation: control 3s 2s both infinite, blink 0.7s infinite;
+}
+
+@keyframes control {
+    from {
+        width: 0;
+
+    }
+
+    to {
+        width: 38%;
+    }
+}
+
+@keyframes blink {
+    from {
+        border-right-color: rgb(255, 255, 255);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+
+}
+
+/*----------------------------------Section One Information End------------------------------*/
+.About {
+    background-color: transparent;
+    margin-top: 50px;
+}
+
+
+.About-Continer {
+    background-color: transparent;
+    width: 90%;
+    margin: 50px;
+}
+
+.About-Continer .profile {
+    width: 29%;
+    float: left;
+    text-align: center;
+    background-color: transparent;
+    margin-left: 14%;
+    box-sizing: border-box;
+
+
+
+
+}
+
+.box {
+
+    border: 5px solid white;
+    box-shadow: 0 0 0 8px #555555 inset;
+
+    border-radius: 10px;
+
+
+
+}
+
+.profile .moce {
+    position: relative;
+    left: 30px;
+    top: 25px;
+    overflow: hidden;
+
+
+    border-radius: 5px;
+
+
+
+
+
+}
+
+.profile .box:hover .icon {
+
+    top: 0;
+    opacity: 0.6;
+
+}
+
+.profile .box:hover .links {
+    opacity: 1;
+}
+
+.profile img {
+    border-radius: 5px;
+    width: 100%;
+
+
+}
+
+.icon {
+
+
+    border-radius: 5px;
+    opacity: 0.5;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+
+    transition: top 0.5s ease, opacity 0.5s ease;
+
+    background-color: #000000;
+}
+
+.icon a i {
+    margin-top: 60%;
+
+
+    font-size: 20px;
+    height: 20px;
+    width: 32px;
+    color: #fcfcfc;
+    opacity: 1;
+
+
+
+}
+
+.links :hover i {
+
+    color: #FF305B;
+
+}
+
+.About-Continer .Information {
+    width: 47%;
+    background-color: transparent;
+    float: left;
+    padding-left: 50px;
+
+
+
+
+
+
+
+
+
+
+}
+
+.About-Continer .Information h2 {
+    font-size: 34px;
+    font-weight: 600;
+    line-height: 21px;
+    margin-bottom: 25px;
+    color: rgb(51, 51, 51);
+    padding: 0 0 0 13px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    position: relative;
+    text-transform: uppercase;
+
+}
+
+.About-Continer .Information h2::before {
+    content: "";
+    width: 4px;
+    height: 25px;
+    position: absolute;
+    left: 0;
+    top: 0;
+
+    background-color: #FF305B;
+
+}
+
+.About-Continer .Information p {
+    font-size: 16px;
+    line-height: 25px;
+    border-bottom: 1px dashed #999999;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.sub-Information ul {
+    list-style: none;
+    padding-left: 0;
+
+}
+
+.sub-Information ul li {
+
+    float: left;
+    color: rgb(85, 85, 85);
+    width: 40%;
+    margin-bottom: 25px;
+    white-space: nowrap;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    padding-right: 50px;
+
+
+}
+
+
+.sub-Information ul li span {
+    margin: 0;
+    font-weight: 500;
+    font-size: 17px;
+    padding: 0; 
+    line-height: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.sub-Information .buttoms .btn1 {
+    margin-right: 15px;
+    background-color: #FF305B;
+    padding: 10px 24px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+
+}
+
+.sub-Information .buttoms .btn2 {
+    margin-right: 15px;
+    background-color: #FF305B;
+    padding: 10px 24px;
+    border: none;
+    font-size: 16px;
+    color: #fff;
+    line-height: 25px;
+    border-radius: 4px;
+    font-weight: 400;
+    transition-property: background-color;
+    transition-duration: 0.7s;
+
+}
+
+.sub-Information .buttoms .btn1:hover {
+    background-color: #EC2403;
+
+
+
+}
+
+.sub-Information .buttoms .btn2:hover {
+    background-color: #EC2403;
+
+
+
+}
+
+/*===============================================Services Section===============================================*/
+.serves {
+    background-color: #F1F1F1;
+    margin-top: 8%;
+
+}
+
+.conriner-Section {
+    width: 90%;
+    margin: auto;
+
+}
+
+.cards {
+    width: 85%;
+    margin: auto;
+
+}
+
+.head {
+    padding-top: 1px;
+    margin-top: 60px;
+}
+
+.head h2:before {
+    content: "";
+
+    margin: 26px auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.head h2:after {
+    content: "";
+    left: 0;
+    margin: 26px auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.View-Serves .head h2 {
+    text-align: center;
+    padding: 50px;
+    color: #333333;
+    font-size: 40px;
+    line-height: 30px;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+.cards .card-info {
+
+    margin-bottom: 50px;
+    background-color: transparent;
+    width: 25%;
+    text-align: center;
+    float: left;
+    padding: 50px 15px;
+    box-sizing: border-box;
+
+    transition: all 0.3s ease-out;
+
+}
+
+.cards .card-info:hover {
+    box-shadow: 13px 13px 26px #c7c7c7, -13px -13px 26px #f9f9f9;
+    background-color: white;
+
+}
+
+.cards .card-info:hover i {
+    transform: scale(1.2);
+}
+
+.cards .card-info i {
+    color: #FF305B;
+    display: block;
+    font-size: 26px;
+    margin-bottom: 20px;
+
+    transition: all 0.3s ease-in-out 0s;
+
+}
+
+.cards .card-info h3 {
+    font-size: 26px;
+    line-height: 28px;
+    margin: 0 0 16px;
+    padding: 0;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(51, 51, 51);
+
+
+}
+
+.cards .card-info p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*======================================================*/
+.Portfolio {
+    background-color: transparent;
+}
+
+.continer {
+    width: 90%;
+    margin: auto;
+
+}
+
+.Portfolio .infor h2 {
+    text-align: center;
+    padding: 50px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.Portfolio .infor {
+    padding-top: 1px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.Portfolio .infor h2:before {
+    content: "";
+
+    margin: 26px auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.Portfolio .infor h2:after {
+    content: "";
+    left: 0;
+    margin: 26px auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.Portfolio .btns {
+    background-color: transparent;
+    text-align: center;
+    padding: 1px;
+
+
+
+
+}
+
+.Portfolio .btns button {
+    border: none;
+    background-color: transparent;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #333333;
+    padding: 3px 12px 50px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.Portfolio .btns button:hover {
+    color: #FF305B;
+}
+
+.CardProduct {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.Portfolio .CardProduct .include {
+
+    background-color: transparent;
+
+
+}
+
+.Portfolio .CardProduct .Product-Views {
+    width: 33.333333333%;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box;
+
+
+
+}
+
+.Portfolio .CardProduct .Product-Views .cardimg {
+    position: relative;
+}
+
+.Portfolio .CardProduct .Product-Views img {
+    width: 100%;
+
+
+
+
+
+}
+
+.Portfolio .CardProduct .Product-Views .second-level {
+    background-color: #0000007f;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.Product-Views .second-level a {
+    position: absolute;
+    right: 15px;
+    bottom: 25px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FF305B;
+
+}
+
+.Portfolio .CardProduct .Product-Views .cardimg:hover .second-level {
+    opacity: 1;
+    transition-duration: 0.5s;
+}
+
+/*#################################################################*/
+.Counter {
+    background-color: #F1F1F1;
+}
+
+.Counter .counter-Section {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.Counter .Counter-Information {
+    width: 25%;
+    float: left;
+    margin: 20px 0 20px 0;
+    text-align: center;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+.Counter .Counter-Information .Counter-Icon {
+
+    font-size: 26px;
+    line-height: 26px;
+    margin: 0 0 15px;
+    padding: 0 0 0 0;
+}
+
+.Counter .Counter-Information .Counter-Icon i {
+    color: #FF305B;
+    padding: 10px;
+}
+
+.Counter .Counter-Information h3 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-weight: 800;
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.Counter .Counter-Information h6 {
+    font-size: 16px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    color: #333333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+/*==================================================================================================*/
+
+
+.feedback-Section {
+    width: 90%;
+    margin: auto;
+}
+
+.feedback .feedback-header h2 {
+    text-align: center;
+    padding: 50px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.feedback .feedback-header {
+    padding-top: 1px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.feedback .feedback-header h2:before {
+    content: "";
+
+    margin: 27px auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.feedback .feedback-header h2:after {
+    content: "";
+    left: 0;
+    margin: 27px auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.feedback-Card {
+    border-radius: 10px;
+    width: 55%;
+    margin: auto;
+    position: relative;
+    background-color: #F1F1F1;
+
+
+}
+
+.feedback-Card-information {
+
+    margin: auto;
+
+    padding: 20px;
+    border-radius: 10px;
+    /* position: relative; */
+
+}
+
+.feedback-Card::after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-top: 100px solid #FF305B;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid #FF305B;
+    border-right: 100px solid transparent;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+
+}
+
+
+.feedback-Card-information .feedback-imge {
+
+    float: left;
+
+
+
+}
+
+.feedback-Card-information .feedback-imge img {
+    width: 75%;
+    border-radius: 50%;
+    position: relative;
+    top: 25px;
+    left: 20px;
+    z-index: 5;
+}
+
+.feedback-Card-information::after {
+    content: "";
+    width: 4%;
+    height: 4%;
+    background-color: ff305b;
+    position: absolute;
+    top: 300px;
+    left: 345px;
+    border-radius: 5px;
+
+
+}
+
+.feedback-Card-information::before {
+    content: "";
+    width: 1.55%;
+    height: 4%;
+    background-color: transparent;
+    position: absolute;
+    top: 299px;
+    left: 383px;
+    border: 1px solid #ff305b;
+    border-radius: 8px;
+}
+
+.feedback-Card-information .feedback-subinformation {
+    float: left;
+    width: 75%;
+    padding: 10px 15px 10px 15px;
+    box-sizing: border-box;
+
+
+}
+
+.feedback-subinformation h3 {
+    font-size: 26px;
+    color: #000000;
+    line-height: 30px;
+    margin: 0 0 10px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+}
+
+.feedback-subinformation h4 a {
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    color: rgb(119, 119, 119);
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+
+.feedback-subinformation p {
+    font-size: 18px;
+    font-style: italic;
+    line-height: 25px;
+    margin: 0 0 15px;
+    font-weight: 400;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(85, 85, 85);
+}
+
+.feedback-subinformation .feedback-Stars i {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0 0 15px;
+    color: rgb(241, 195, 13);
+}
+
+/*----------------------------------------------------------------*/
+.Blog {
+    background-color: #F1F1F1;
+
+}
+
+.Blog-Continer {
+    width: 90%;
+    margin: 8% auto 0 auto;
+
+}
+
+.Blog-Header h2 {
+    text-align: center;
+    padding: 50px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.Blog .Blog-Header {
+    padding-top: 1px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.Blog .Blog-Header h2:before {
+    content: "";
+
+    margin: 27px auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.Blog .Blog-Header h2:after {
+    content: "";
+    left: 0;
+    margin: 27px auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.Blog-Cards {
+    width: 80%;
+    margin: auto;
+}
+
+.Blog-Card-Review {
+
+    box-sizing: border-box;
+    padding: 10px;
+    float: left;
+    width: 33.3333333333%;
+
+}
+
+.Blog-Card-Review .Sub-Blog {
+
+
+    background-color: rgba(255, 255, 255, 0.877);
+
+
+}
+
+.Blog-Cards {
+    padding-bottom: 50px;
+}
+
+.Blog-Card-Review img {
+    width: 100%;
+
+}
+
+.Blog-Feram {
+    width: 100%;
+
+
+
+}
+
+iframe {
+    width: 100%;
+
+
+    border: none;
+
+    max-height: 500px;
+
+}
+
+.Blog-Sub-information {
+    padding: 20px;
+}
+
+.Sub-Blog .Blog-Sub-information h2 {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+    margin: 0 0 10px;
+    padding: 0;
+    color: rgb(85, 85, 85);
+}
+
+.Sub-Blog .Blog-Sub-information h1 {
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 15px;
+    padding: 0;
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+    transition: all 0.4s;
+}
+
+.Sub-Blog .Blog-Sub-information h1:hover {
+    color: #FF305B;
+    transition-duration: 0.4s;
+}
+
+.Sub-Blog .Blog-Sub-information p {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+    margin: 0 0 15px;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(85, 85, 85);
+
+}
+
+.Sub-Blog .Blog-Sub-information .Blog-Link a {
+    font-size: 16px;
+    line-height: 25px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: rgb(85, 85, 85);
+    transition: all 0.4s;
+
+
+}
+
+.Sub-Blog .Blog-Sub-information a:hover {
+    color: #FF305B;
+    transition-duration: 0.4s;
+}
+
+/*============================================================*/
+.Countact {
+    background-color: white;
+}
+
+.Countact-Section {
+    width: 90%;
+    margin: auto;
+
+}
+
+.Countact-Header h2 {
+    text-align: center;
+    padding: 50px;
+    color: rgb(51, 51, 51);
+    font-size: 40px;
+    line-height: 30px;
+    font-weight: 800;
+    position: relative;
+    background-color: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.Countact .Countact-Header {
+    padding-top: 1px;
+    margin-top: 60px;
+    position: relative;
+}
+
+.Countact .Countact-Header h2:before {
+    content: "";
+
+    margin: 27px auto;
+    position: absolute;
+    right: 0;
+    left: 0;
+    border-color: #ff305b;
+    border-style: solid;
+    border-width: 1px 0;
+    bottom: 0;
+    padding: 4px 0 5px;
+    width: 70px;
+}
+
+.Countact .Countact-Header h2:after {
+    content: "";
+    left: 0;
+    margin: 27px auto;
+    position: absolute;
+    right: 0;
+    background-color: #ff305b;
+    bottom: 5px;
+    height: 1px;
+    width: 160px;
+}
+
+.Countact-Form {
+    margin: 0 auto 50px;
+    padding-left: 10%;
+    width: 90%;
+}
+
+.Countact-Row-One,
+.Countact-Row-two,
+.Countact-Row-three,
+.Countact-Row-four {
+    width: 75%;
+    margin: auto;
+    padding-top: 10px;
+}
+
+input[type=text],
+select {
+    width: 40%;
+    padding: 12px 30px;
+    margin: 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: left;
+}
+
+input[type=email],
+select {
+    width: 40%;
+    float: left;
+    padding: 12px 20px;
+    margin: 8px 0;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+
+
+    padding: 25px 20px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-left: 10px;
+    font-size: 16px;
+
+}
+
+
+.Countact-Row-two .input-three input[type=text],
+select {
+    width: 80%;
+    float: left;
+    padding: 12px 20px;
+    margin: 8px 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.input-five {
+    margin-left: 10px;
+
+}
+
+.send-btn {
+    background-color: #ff305b;
+    border: 1px solid #ff305b;
+    border-radius: 4px;
+    padding: 0 20px;
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 400;
+    margin: 0  0 5px 0;
+    
+    color: white;
+    transition: all 0.4s;
+
+}
+
+.send-btn:hover {
+    background-color: #EC2403;
+
+}
+
+/* ----------------------------------------------------------------*/
+.footer {
+    background-color: #333333;
+}
+
+.footer-section {
+    width: 80%;
+    margin: auto;
+    padding: 30px;
+
+    text-align: center;
+}
+
+.footer-section .footer-icons {
+
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.footer-section .footer-icons ul {
+    padding: 4px 30px;
+
+    width: fit-content;
+    margin: auto;
+
+}
+
+.footer-section .footer-icons ul li {
+
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.footer-section .footer-icons ul n1 {
+
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.footer-section .footer-icons ul n2 {
+
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.footer-section .footer-icons ul n3 {
+
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.footer-section .footer-icons ul n4 {
+
+    display: inline-block;
+    font-size: 16px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    color: white;
+    font-weight: 400;
+    transition: all 0.5s;
+}
+
+.footer-section .footer-icons .n1:hover {
+    color: #FF305B;
+    transition: 0.5s;
+
+}
+
+.footer-section .footer-icons .n2:hover {
+    color: #FF305B;
+    transition: 0.5s;
+
+}
+
+.footer-section .footer-icons .n3:hover {
+    color: #FF305B;
+    transition: 0.5s;
+
+}
+
+.footer-section .footer-icons .n4:hover {
+    color: #FF305B;
+    transition: 0.5s;
+
+}
+
+.footer-section .footer-information {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.supinfo {
+    color: #FF305B;
+    transition: all 0.5s;
+}
+
+.supinfo:hover {
+    text-decoration: underline;
+
+}
